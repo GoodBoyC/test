@@ -19,8 +19,8 @@ while (loop == 'true'):
         print ("wrong password!")
         os.system('xdg-open https://wa.me/+2349067338953')	
 def login():
-        time.sleep(0.04)
-	    os.system("clear")
+   time.sleep(0.04)
+   os.system("clear")
 try:
 	import rich
 except ImportError:
