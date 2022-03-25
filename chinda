@@ -7,14 +7,14 @@ import os, sys, subprocess, platform
 try:
     gig = requests.get("https://github.com/GoodBoyC/GoodBoyC/blob/main/license").text.strip()
     if idl in gig:
-			jok = gig.split(idl+"|")
-			jokk = ("%s"%(jok[1]))
-			jokkk = jokk.split("<")
-			wakk = jokkk[0]
-			if wakk == "":
-				self.konfo()
-		else:
+		jok = gig.split(idl+"|")
+		jokk = ("%s"%(jok[1]))
+		jokkk = jokk.split("<")
+		wakk = jokkk[0]
+		if wakk == "":
 			self.konfo()
+	else:
+		self.konfo()
 
 try:
 	import rich
