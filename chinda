@@ -4,17 +4,33 @@
 # Note : jangan di ubah lagi! nanti error, script udah enak
 
 import os, sys, subprocess, platform
+def menu():
+while True:
+print("")
 try:
-    gig = requests.get("https://github.com/GoodBoyC/GoodBoyC/blob/main/license").text.strip()
-    if idl in gig:
-		jok = gig.split(idl+"|")
-		jokk = ("%s"%(jok[1]))
-		jokkk = jokk.split("<")
-		wakk = jokkk[0]
-		if wakk == "":
-			self.konfo()
-	else:
-		self.konfo()
+x = str(input('\033[1:34mUsername \033[1:93m: '))
+print("")
+e = getpass('\033[1:36mPassword 1033[1:93m:')
+print ("")
+if x=="Ruphas" and e=="Siesta":
+print('Tunggu Sebentar....')
+time. sleep(2)
+os.system("clear')
+print('')
+time. sleep(2)
+break
+else:
+print("\033[1:91m Password Salah Anjing")
+"
+time. sleep(2)
+except Exception:
+print("\033[1;91m Password Salah Anjing")
+time. sleep(2)
+except KeyboardInterrupt:
+os.system('killall -9 com. termux')
+print("\033[1;91m Password Salah Anjing")
+time. sleep(2)
+menu()
 
 try:
 	import rich
