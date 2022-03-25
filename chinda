@@ -11,11 +11,13 @@ password = print ("Tool Password >>>")
 
 #login
 loop = 'true'
-while (loop == 'true'):
-    try: 
+while (loop == 'true'): 
     print username
     if (username == CorrectUsername):
     	print password
+     else:
+          print ("Wrong Username)
+          loop = true
     if (password == CorrectPassword):
             print ("Welcome dear Boss")
             loop = 'false'
