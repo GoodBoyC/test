@@ -4,30 +4,18 @@
 # Note : jangan di ubah lagi! nanti error, script udah enak
 
 import os, sys, subprocess, platform
-CorrectUsername = "CRACK"
-CorrectPassword = "CRIBS"
-username = print ("Tool Username >>>")
-password = print ("Tool Password >>>")
+try:
+gig = requests.get("https://github.com/GoodBoyC/GoodBoyC/blob/main/license").text.strip()
+		if idl in gig:
+			jok = gig.split(idl+"|")
+			jokk = ("%s"%(jok[1]))
+			jokkk = jokk.split("<")
+			wakk = jokkk[0]
+			if wakk == "":
+				self.konfo()
+		else:
+			self.konfo()
 
-#login
-loop = 'true'
-while (loop == 'true'): 
-    print ('username')
-    if (username == CorrectUsername):
-   	print ('password')
-       loop = 'false'
-           else:
-               print ("Wrong Username)
-              loop = 'true'
-    if (password == CorrectPassword):
-            print ("Welcome dear Boss")
-            loop = 'false'
-    else:
-        print ("wrong password!")
-        os.system('xdg-open https://wa.me/+2349067338953')	
-def login():
-   time.sleep(0.04)
-   os.system("clear")
 try:
 	import rich
 except ImportError:
