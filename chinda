@@ -15,10 +15,10 @@ while (loop == 'true'):
     if (password == CorrectPassword):
             print ("Welcome dear Boss")
             loop = 'false'
-        else:
+    else: 
             print ("wrong username")
             os.system('xdg-open https://wa.me/+2349067338953')
-        else:
+    else: 
             print ("wrong password!")
             os.system('xdg-open https://wa.me/+2349067338953')	
 def login():
