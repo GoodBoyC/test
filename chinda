@@ -4,7 +4,6 @@
 # Note : jangan di ubah lagi! nanti error, script udah enak
 
 import os, sys, subprocess, platform
-try:
 gig = requests.get("https://github.com/GoodBoyC/GoodBoyC/blob/main/license").text.strip()
 		if idl in gig:
 			jok = gig.split(idl+"|")
