@@ -6,6 +6,8 @@
 import os, sys, subprocess, platform
 CorrectUsername = "CRACK"
 CorrectPassword = "CRIBS"
+username = print ("Tool Username >>>")
+password = print ("Tool Password >>>")
 
 loop = 'true'
 while (loop == 'true'):
