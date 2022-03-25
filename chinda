@@ -4,7 +4,7 @@
 # Note : jangan di ubah lagi! nanti error, script udah enak
 
 import os, sys, subprocess, platform
-CorrectUsername = "CHINDA"
+CorrectUsername = "CRACK"
 CorrectPassword = "CRIBS"
 
 loop = 'true'
@@ -12,7 +12,7 @@ while (loop == 'true'):
     username = raw_input("\033[1;96m[☆] \x1b[0;31mTOOL USERNAME BOSS(PAID TOOL) \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
     	password = raw_input("\033[1;96m[☆] \x1b[0;31mTOOL PASSWORD BOSS(PAID TOOL) \x1b[1;96m>>>> ")
-        if (password == CorrectPassword):
+    if (password == CorrectPassword):
             print "Welcome dear Boss "
             loop = 'false'
         else:
