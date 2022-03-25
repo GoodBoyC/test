@@ -15,9 +15,10 @@ while (loop == 'true'):
     print ('username')
     if (username == CorrectUsername):
     	print ('password')
+        loop = 'false'
      else:
-          print ("Wrong Username)
-          loop = 'true'
+         print ("Wrong Username)
+         loop = 'true'
     if (password == CorrectPassword):
             print ("Welcome dear Boss")
             loop = 'false'
