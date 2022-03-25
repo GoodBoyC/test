@@ -20,7 +20,7 @@ while (loop == 'true'):
         os.system('xdg-open https://wa.me/+2349067338953')	
 def login():
         time.sleep(0.04)
-	os.system("clear")
+	    os.system("clear")
 try:
 	import rich
 except ImportError:
