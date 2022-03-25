@@ -9,9 +9,9 @@ CorrectPassword = "CRIBS"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[0;31mTOOL USERNAME BOSS(PAID TOOL) \x1b[1;96m>>>> ")
+    username = print ("Tool Username >>>")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[0;31mTOOL PASSWORD BOSS(PAID TOOL) \x1b[1;96m>>>> ")
+    	password = print ("Tool Password >>>")
     if (password == CorrectPassword):
             print ("Welcome dear Boss")
             loop = 'false'
