@@ -12,9 +12,10 @@ password = print ("Tool Password >>>")
 #login
 loop = 'true'
 while (loop == 'true'):
-    username = print ("Tool Username >>>")
+    try: 
+    print username
     if (username == CorrectUsername):
-    	password = print ("Tool Password >>>")
+    	print password
     if (password == CorrectPassword):
             print ("Welcome dear Boss")
             loop = 'false'
